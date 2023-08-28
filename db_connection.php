@@ -1,8 +1,8 @@
 <?php
-$servername = "servidor";
-$username = "usuario";
-$password = "senha";
-$dbname = "banco_de_dados";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "casa_info";
 
 // Criar conexão
 $conn = new mysqli($servername, $username, $password, $dbname);
