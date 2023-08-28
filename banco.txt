@@ -1,0 +1,6 @@
+CREATE TABLE arduino_data (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    luz_estado TINYINT NOT NULL,
+    temperatura FLOAT NOT NULL,
+    data_hora TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
